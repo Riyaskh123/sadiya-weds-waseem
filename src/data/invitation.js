@@ -39,7 +39,7 @@ export const INFO = {
     addr: ['Police Line Street, Oldpet,', 'Palamaner, Chittoor District'],
     venue: ['MBS Function Hall', 'Madanapalli Road'],
     mapQ: 'MBS Function Hall, Madanapalli Road, Palamaner',
-    contacts: [['S. Mahaboob', '7893466578']],
+    contacts: [['S. Mahaboob', '7893406578']],
     embedded:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.259504728206!2d78.7405402!3d13.2090175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad7eaeee50e7ff%3A0x92109ef644e66c76!2sMBS%20Function%20Hall!5e0!3m2!1sen!2sae!4v1793952858444!5m2!1sen!2sae"
   },
 }
