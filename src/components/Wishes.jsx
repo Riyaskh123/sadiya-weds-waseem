@@ -17,7 +17,7 @@ export default function Wishes({ openContact }) {
       <p className="mt-3 text-xl italic text-mute">May Allah bless you both and unite you in goodness.</p>
       <p className="mt-6 text-lg">With love from<br />The Families of Sadiya &amp; Waseem</p>
       <p className="font-script text-gold text-4xl mt-6">Sadiya &amp; Waseem</p>
-      <p className="text-xs tracking-[.25em] uppercase text-mute mt-2">23 · December · 2026 · Valima<br />MBS Function Hall · Madanapalli Road</p>
+      <p className="text-xs tracking-[.25em] uppercase text-mute mt-2">20 · December · 2026 · Nikkah<br />Kabba Convention Hall</p>
       <button onClick={openContact} className="btn solid mt-8">Contact Us</button>
     </Wrap>
   )

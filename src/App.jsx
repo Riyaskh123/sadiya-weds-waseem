@@ -13,7 +13,7 @@ import Wishes from './components/Wishes'
 import ContactSheet from './components/ContactSheet'
 
 // bottom nav: [label, first section index, last section index]
-const NAV = [['Events', 3, 3], ['Dua', 4, 4], ['Family', 5, 5], ['Venue', 6, 7], ['Wishes', 8, 8]]
+const NAV = [['Events', 3, 3], ['Dua', 4, 4], ['Family', 5, 5], ['Venue', 6, 6], ['Wishes', 7, 7]]
 
 export default function App() {
   const [on, toggleMusic] = useMusic()
@@ -51,7 +51,7 @@ export default function App() {
     <Dua />,
     <Family />,
     <VenueMap label="Nikkah · Bride’s Side" venue={INFO.bride.venue} query={INFO.bride.mapQ} embedded={INFO.bride.embedded} />,
-    <VenueMap label="Valima · Groom’s Side" venue={INFO.groom.venue} query={INFO.groom.mapQ} embedded={INFO.groom.embedded} />,
+    // <VenueMap label="Valima · Groom’s Side" venue={INFO.groom.venue} query={INFO.groom.mapQ} embedded={INFO.groom.embedded} />,
     <Wishes openContact={() => setSheet(true)} />,
   ]
 

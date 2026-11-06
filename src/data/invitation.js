@@ -7,7 +7,7 @@ export const INFO = {
     cover: 'images/cover-img.png', // first-page background (portrait photo works best, ~1080×1920)
     banners: [
       { src: 'images/banner-1.png', caption: 'Sadiya & Waseem', sub: '20 · 12 · 2026' },
-      { src: 'images/banner-2.png', caption: 'Alhamdulillah', sub: 'Wedding celebrations' }
+      // { src: 'images/banner-2.png', caption: 'Alhamdulillah', sub: 'Wedding celebrations' }
     ], // add or remove banner slides freely (landscape or portrait photos, ~1600×1200)
   },
 
@@ -25,7 +25,7 @@ export const INFO = {
     paternal: 'Late Syed Abdul Malik',
     maternal: 'Late Osman Sharieff',
     addr: ['Dargah Shahi Mohalla,', 'Clock Tower, Kolar'],
-    venue: ['Khabba Convention Hall', 'St. Anne’s High School', 'Near Bypass Road', 'Kolar – 563101'],
+    venue: ['Khabba Convention Hall', 'St. Anne’s High School', 'Near Bypass Road, Kolar – 563101'],
     mapQ: 'Khabba Convention Hall, St. Anne’s High School, Bypass Road, Kolar 563101',
     contacts: [['Syed Mansoor', '6360021841'], ['Syed Maqsood', '9620901956']],
     embedded:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497349.5160519661!2d77.77931033978528!3d13.128106000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3badf087451e9b35%3A0x68c034a374dccf!2sKAABA%20Convention%20Centre!5e0!3m2!1sen!2sae!4v1793960286910!5m2!1sen!2sae"

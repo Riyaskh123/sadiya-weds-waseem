@@ -18,7 +18,7 @@ export default function Cover({ onOpen }) {
           <h1 className="font-script text-gold leading-none mt-6" style={{ fontSize: 'clamp(4rem,18vw,6.5rem)' }}>
             Sadiya<br /><span className="text-3xl text-ink">&amp;</span><br />Waseem
           </h1>
-          <p className="mt-6 text-2xl italic">Our Valima</p>
+          <p className="mt-6 text-2xl italic">Our Nikkah</p>
           <p className="mt-2 tracking-[.3em] text-sm text-mute">Sunday · 20<sup>th</sup> December 2026</p>
           <button onClick={onOpen} className="btn mt-10">Open Invitation</button>
           <p className="bounce text-gold text-2xl mt-8">⌄</p>
