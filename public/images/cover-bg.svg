@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f50b0"/><stop offset="1" stop-color="#0a1f4d"/></linearGradient>
+<pattern id="p" width="90" height="90" patternUnits="userSpaceOnUse"><path d="M45 8l9 28 28 9-28 9-9 28-9-28-28-9 28-9z" fill="none" stroke="#d9b96a" stroke-opacity=".16"/></pattern></defs>
+<rect width="1080" height="1920" fill="url(#g)"/><rect width="1080" height="1920" fill="url(#p)"/>
+<g fill="#d9b96a" text-anchor="middle" font-family="Georgia,serif"><text x="540" y="960" font-size="67" fill-opacity=".85">Cover background</text><text x="540" y="1037" font-size="36" fill-opacity=".6">replace public/images/cover-bg</text></g></svg>
