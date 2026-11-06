@@ -6,7 +6,7 @@ export default function VenueMap({ label, venue, query, embedded }) {
   return (
     <Wrap>
       <Eyebrow>{label}</Eyebrow>
-      <h2 className="font-script text-gold text-5xl mt-2 mb-5">Find the venue</h2>
+      <h2 className="font-script text-gray-800 text-5xl mt-2 mb-5">Find the venue</h2>
       <div className="card rounded-2xl overflow-hidden w-full">
         <iframe src={embedded} className="w-full h-full" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" />
         <div className="px-6 py-6">

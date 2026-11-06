@@ -6,8 +6,8 @@ export default function ContactSheet({ onClose }) {
     <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4 bg-black/65" onClick={onClose}>
       <div className="card rounded-2xl w-full max-w-md p-6 fade-in max-h-[85%] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
         <div className="flex justify-between items-center">
-          <h3 className="font-script text-gold text-4xl">Contact</h3>
-          <button onClick={onClose} aria-label="Close" className="text-gold text-2xl px-2">×</button>
+          <h3 className="font-script text-gray-800 text-4xl">Contact</h3>
+          <button onClick={onClose} aria-label="Close" className="text-gray-800 text-2xl px-2">×</button>
         </div>
         {groups.map(([g, list]) => (
           <div key={g} className="mt-5">

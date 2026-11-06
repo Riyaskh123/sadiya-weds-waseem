@@ -34,7 +34,7 @@ export default function App() {
       }),
       { root: el, threshold: 0.4 }
     )
-    ;[...el.children].forEach((c) => io.observe(c))
+      ;[...el.children].forEach((c) => io.observe(c))
     const onScroll = () => {
       setProg(el.scrollTop / (el.scrollHeight - el.clientHeight || 1))
       if (bg.current) bg.current.style.transform = `translateY(${-el.scrollTop * 0.18}px)` // parallax stars
@@ -66,7 +66,7 @@ export default function App() {
 
       {cur > 0 && (
         <>
-          <div className="absolute left-4 top-3 z-40 font-script text-gold text-3xl">S &amp; W</div>
+          <div className="absolute left-4 top-3 z-40 font-script text-gray-800 text-3xl">S &amp; W</div>
           <div className="absolute right-4 top-3 flex gap-2 z-40">
             <button onClick={() => setSheet(true)} className="btn solid">Contact</button>
             <button onClick={toggleMusic} aria-label="Toggle music" className="btn bg-navy" style={{ padding: '.65rem .9rem' }}>{on ? '♪ On' : '♪ Off'}</button>

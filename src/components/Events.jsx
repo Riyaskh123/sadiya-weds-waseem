@@ -9,10 +9,10 @@ export default function Events() {
   return (
     <Wrap>
       <Eyebrow>The Celebration</Eyebrow>
-      <h2 className="font-script text-gold text-5xl mt-2 mb-6">Join us, <em>in shaa Allah</em></h2>
+      <h2 className="font-script text-gray-800 text-5xl mt-2 mb-6">Join us, <em>in shaa Allah</em></h2>
       <div className="card rounded-2xl px-6 py-8 w-full">
         <p className="eyebrow">Nikkah</p>
-        <p className="font-script text-gold text-4xl mt-2">Sunday</p>
+        <p className="font-script text-gray-800 text-4xl mt-2">Sunday</p>
         <p className="text-3xl">20<sup className='text-sm'>th</sup> · 12 · 2026</p>
         <Orn />
         <p className="eyebrow">Venue</p>

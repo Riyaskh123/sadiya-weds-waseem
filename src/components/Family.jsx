@@ -5,7 +5,7 @@ function FamilyCard({ p, label }) {
   return (
     <div className="card rounded-2xl px-6 py-9 w-full">
       <Eyebrow>{label}</Eyebrow>
-      <h3 className="font-script text-gold text-4xl mt-3">{p.name}</h3>
+      <h3 className="font-script text-gray-800 text-4xl mt-3">{p.name}</h3>
       <p className="mt-3 text-xl">{p.line}</p>
       <p className="text-xl">Mother: {p.mother}</p>
       <Orn />
@@ -21,9 +21,9 @@ export default function Family() {
   return (
     <Wrap>
       <Eyebrow>Two Families, One Journey</Eyebrow>
-      <h2 className="font-script text-gold text-4xl mt-2 mb-6">With the blessings of our families</h2>
+      <h2 className="font-script text-gray-800 text-4xl mt-2 mb-6">With the blessings of our families</h2>
       <FamilyCard p={INFO.bride} label="Bride" />
-      <p className="text-gold text-2xl my-4">✦</p>
+      <p className="text-gray-800 text-2xl my-4">✦</p>
       <FamilyCard p={INFO.groom} label="Groom" />
       <p className="mt-6 text-lg italic text-mute">With warm regards and heartfelt duas from the families of Kolar &amp; Palamaner</p>
     </Wrap>

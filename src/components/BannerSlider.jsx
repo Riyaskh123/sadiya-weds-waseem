@@ -34,7 +34,7 @@ export default function BannerSlider({ slides, interval = 4500 }) {
         {slides.map((s, k) => (
           <div key={k} className={'slide ' + (k === i ? 'on' : '')}>
             {/* gradient fallback shows if the image file is missing */}
-            <div className="absolute inset-0 bg-gradient-to-br from-[#1f50b0] to-[#0a1f4d]" />
+            <div className="absolute inset-0 bg-gradient-to-br from-[#987733] to-[#987733]" />
             {!broken[k] && (
               <img
                 src={asset(s.src)}
@@ -44,17 +44,17 @@ export default function BannerSlider({ slides, interval = 4500 }) {
                 onError={() => setBroken((b) => ({ ...b, [k]: true }))}
               />
             )}
-            <div className="absolute inset-x-0 bottom-0 pt-16 pb-9 px-4 text-center bg-gradient-to-t from-[#0a1f4d]/90 to-transparent">
-              <p className="font-script text-gold text-2xl leading-tight">{s.caption}</p>
-              {s.sub && <p className="text-mute tracking-widest text-xs uppercase mt-1">{s.sub}</p>}
+            <div className="absolute inset-x-0 bottom-0 pt-16 pb-9 px-4 text-center bg-gradient-to-t from-[#B2AC88]/90 to-transparent">
+              <p className="font-script text-gray-800 text-2xl leading-tight">{s.caption}</p>
+              {s.sub && <p className="text-black tracking-widest text-xs uppercase mt-1">{s.sub}</p>}
             </div>
           </div>
         ))}
 
         {n > 1 && (
           <>
-            <button onClick={() => go(i - 1)} aria-label="Previous banner" className="absolute left-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-[#0a1f4d]/60 text-gold text-xl">‹</button>
-            <button onClick={() => go(i + 1)} aria-label="Next banner" className="absolute right-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-[#0a1f4d]/60 text-gold text-xl">›</button>
+            <button onClick={() => go(i - 1)} aria-label="Previous banner" className="absolute left-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-[#0a1f4d]/60 text-gray-800 text-xl">‹</button>
+            <button onClick={() => go(i + 1)} aria-label="Next banner" className="absolute right-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-[#0a1f4d]/60 text-gray-800 text-xl">›</button>
             <div className="absolute bottom-3 inset-x-0 flex justify-center gap-2">
               {slides.map((_, k) => (
                 <button key={k} onClick={() => go(k)} aria-label={'Banner ' + (k + 1)} className="h-2 rounded-full transition-all" style={{ width: k === i ? 22 : 8, background: k === i ? '#d9b96a' : 'rgba(217,185,106,.4)' }} />
